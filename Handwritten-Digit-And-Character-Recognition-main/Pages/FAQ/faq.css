@@ -1,0 +1,149 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    height: 100px;
+}
+
+#navbar img {
+    float: left;
+    width: auto;
+    height: 100%;
+}
+
+ul#navbar li {
+    float: right;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+ul#navbar li a:hover {
+    background-color: #ef233c;
+    color: white;
+} 
+
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 30px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+/* Footer */
+.footer{
+    width: 100%;
+    display: block;
+    height:200px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+  .footer a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .upper{
+    border-top: 3px solid black;
+    height:220px;
+    display: block;
+  }
+  .head{
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .left{
+    display: block;
+     float: left;
+    width: 40%;
+  }
+  .left .list{
+    font-size: 20px;
+  }
+  .left .list div{
+    padding:8px;
+  }
+  .right{
+    display: block;
+    float: right;
+    width:60%;
+  }
+  .right .list div{
+     padding: 4px 0px;
+  }
+  .lower{
+    margin-top: 10p;
+    background-color: black;
+    height:40px;
+    padding-top:9px;
+    color: white;
+  }
