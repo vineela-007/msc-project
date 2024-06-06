@@ -1,6 +1,7 @@
 unique_ids:
   forms: {}
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1717657949980980902835374.3423'
   assets: {}
   scripts: {}
